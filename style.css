@@ -1,0 +1,33 @@
+body
+{
+    background: black;
+    margin-left:20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example
+{
+    from {box-shadow: 1px 1px 50px orangered;}
+    to {box-shadow: 1px 1px 50px darkmagenta;}
+}
+
+h1
+{
+    font-family: 'Fruktur', cursive;
+    color: orange;
+}
+
+hr
+{
+    border-top: 5px dotted red;
+}
+
+marquee
+{
+    background-color: white;
+}
